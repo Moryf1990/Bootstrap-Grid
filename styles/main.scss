@@ -38,3 +38,151 @@
 	color: #fff;
 	width: 7em;
 }
+
+.mountains {
+    background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/bootstrap-grid/blob/master/images/hero-dark.jpg?raw=true");
+	height: 30em;
+	margin-top: -3em;
+	margin-left: 2px;
+	margin-right: 2px;
+
+	h1 {
+		color: #fff;
+		text-align: center;
+		padding-top: 2em;
+		font-weight: normal;
+		font-size: 4.5em;
+		font-family: 'Open Sans', sans-serif;
+
+	}
+
+	p {
+		color: #fff;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.5em;
+		margin-top: 1em;
+		margin-right: 5em;
+		margin-left: 5em;
+
+	}
+}
+
+.snapgrid-description {
+
+	h3 {
+		text-align: center;
+		color: #9CA0A3;
+		font-family: 'Hind', sans-serif;
+		font-weight: bold;
+	}
+
+	p {
+		color: #9CA0A3;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	button {
+		color: #fff;
+		background: #418ACB;
+		-webkit-border-radius: 0.5em;
+		font-family: 'Open Sans', sans-serif;
+		border: none;
+		margin-top: 1em;
+		margin-left: 4em;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+.html {
+	background: #F0F0F0;
+	margin-left: 2em;
+	margin-right: 2em;
+
+	h3 {
+		color: #B2B5B8;
+		font-family: 'Hind', sans-serif;
+		padding-top: 1em;
+	}
+
+	p {
+		color: #B2B5B8;
+		font-family: 'Open Sans', sans-serif;
+		padding-bottom: 1em;
+	}
+}
+
+.dog {
+	margin-left: 1em;
+	margin-top: 1em;
+	color: #C0C0C0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.meal {
+	margin-left: 3em;
+	margin-top: 1em;
+	color: #C0C0C0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.desert {
+	margin-left: 1em;
+	margin-top: 1em;
+	color: #C0C0C0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sunset {
+	margin-left: 3em;
+	margin-top: 1em;
+	color: #C0C0C0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+@media screen and (min-width: 768px) {
+	.html h3 {
+		text-align: center;
+	}
+
+	.dog {
+		width: 20%;
+	}
+
+	.meal {
+		width: 20%;
+	}
+
+	.desert {
+		width: 20%;
+		margin-left: 3em;
+	}
+
+	.sunset {
+		width: 20%;
+	}
+}
+
+// @media screen and (min-width: 931px) {
+// 	.dog {
+// 		margin-top: 1em;
+// 	}
+
+// 	.meal {
+// 		margin-top: 1em;
+// 	}
+// }
+
+
+
+
+
+
+
+
+
+
+
