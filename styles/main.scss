@@ -1,0 +1,40 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.navbar-default {
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+}
+
+.snap {
+	color: #5A8BC1;
+	font-family: 'Hind', sans-serif;
+	font-weight: bold;
+}
+
+.grid {
+	color: #5B636A;
+	font-family: 'Hind', sans-serif;
+	font-weight: bold;
+}
+
+.navbar-nav>li>a {
+	padding-right: 6em;
+}
+
+.navbar-default .navbar-toggle {
+	background: #3D8CCB;
+	margin-right: 5em;
+	padding: 6px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background: #fff;
+	height: 4px;
+}
+
+.navbar-btn {
+	background: #4489C5;
+	color: #fff;
+	width: 7em;
+}
