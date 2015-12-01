@@ -86,7 +86,7 @@
   .html p {
     color: #B2B5B8;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 1em; }
+    padding: 1em; }
 
 .dog {
   margin-left: 1em;
@@ -112,15 +112,31 @@
   color: #C0C0C0;
   font-family: 'Open Sans', sans-serif; }
 
+.snapgrid-bottom-description h3 {
+  text-align: center;
+  color: #9CA0A3;
+  font-family: 'Hind', sans-serif;
+  font-weight: bold; }
+
+.snapgrid-bottom-description p {
+  color: #9CA0A3;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+
 @media screen and (min-width: 768px) {
   .html h3 {
     text-align: center; }
   .dog {
-    width: 20%; }
+    width: 20%;
+    margin-left: 1.5em; }
   .meal {
-    width: 20%; }
+    width: 20%;
+    margin-left: 1.5em; }
   .desert {
     width: 20%;
-    margin-left: 3em; }
+    margin-left: 1.5em; }
   .sunset {
-    width: 20%; } }
+    width: 20%;
+    margin-left: 1.5em; }
+  .image5 {
+    width: 25%; } }
