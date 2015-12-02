@@ -145,7 +145,6 @@
 .snapgrid-bottom-description {
 
 	h3 {
-		text-align: center;
 		color: #9CA0A3;
 		font-family: 'Hind', sans-serif;
 		font-weight: bold;
@@ -156,6 +155,42 @@
 		text-align: center;
 		font-family: 'Open Sans', sans-serif;
 	}
+}
+
+.bottom {
+	background: #3A414B;
+	height: 20em;
+	margin-top: 1em;
+	margin-left: 2.75em;
+	padding-left: 1em;
+	margin-right: -2.75em;
+
+
+	h3 {
+		font-family: 'Hind', sans-serif;
+		color: #9097A0;
+	}
+
+	p {
+		color: #9097A0;
+		font-family: 'Open Sans', sans-serif;
+		margin: 0.5em;
+	}
+}
+
+.about-us-footer {
+	
+	p {
+		text-decoration: underline;
+	}
+}
+
+.contact-us-footer {
+	width: 32%;
+}
+
+.snapgrid-footer {
+	margin-left: 0.5em;
 }
 
 @media screen and (min-width: 768px) {
@@ -186,23 +221,65 @@
 	.image5 {
 		width: 25%;
 	}
+
+	.snapgrid-bottom-description {
+		text-align: center;
+	}
 }
 
-// @media screen and (min-width: 931px) {
-// 	.dog {
-// 		margin-top: 1em;
-// 	}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+	.bottom {
+		margin-top: -1.5em;
+		padding-top: -4em;
+	}
 
-// 	.meal {
-// 		margin-top: 1em;
-// 	}
-// }
+	.snapgrid-footer {
+		margin-top: 1em;
+		padding-top: 1em;
+	}
+
+	.about-us-footer {
+		margin-left: 0.5em;
+	}
+
+	.contact-us-footer {
+		width: 100%;
+		margin-left: 0.5em;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+	.mountains {
+		h1 {
+			font-size: 3.5em;
+			margin-left: -10em;
+			padding-top: 3em;
+		}
+
+		p {
+			font-size: 1em;
+			margin-right: -14em;
+			margin-top: -2.4em;
+		}
+	}
+}
 
 
 
+@media screen and (min-width: 851px) and (max-width: 950px) {
+	.mountains {
+		h1 {
+			margin-left: -9em;
+		}
 
-
-
+		p {
+			margin-right: -16em;
+			padding-right: 4em;
+			font-size: 1.15em;
+			margin-top: -3.3em;
+		}
+	}
+}
 
 
 
